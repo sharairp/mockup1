@@ -1,4 +1,6 @@
 @import url("animacion.css");
+@import url("iconos.css");
+@import url("botones.css");
 /* Estilos Generales */
 
 
@@ -51,63 +53,6 @@ nav a {
   flex-wrap: wrap;
 }
 
-.cta-buttons button {
-  margin-top: 25px !important;
-  margin: 10px;
-  padding: 10px 20px;
-  border: none;
-  cursor: pointer;
-}
-[class*="btn"]{
-  border:none;
-  border-radius: 20px 20px 20px 20px;
-}
-.register-btn{
-  background-color: #73E5FF;
-  padding: 15px 15px; 
-  width: 100px; 
-  height: 40px;
-  display: flex; 
-  align-items: center;
-  justify-content: center;
-}
-.chat-soft-btn{
-  padding: 15px 15px; 
-  width: 200px; 
-  height: 30px;
-  display: flex; 
-  align-items: center; 
-  justify-content: center;
-  margin: 0 auto;
-  color:white;
-  background-color: rgba(255, 255, 255, 0.18);
-}
-.contac-btn {
-  cursor:pointer;
-  display: flex;
-  justify-content: space-between; 
-  align-items: center; 
-  width: 100%; 
-  padding-top: 50px;
-}
-.c-btn{
-  all:unset;
-}
-.login-btn{
-  all:unset;
-}
-
-
-.yellow-btn {
-  background-color: yellow;
-  color:#003f2f;
-}
-
-.dark-btn {
-  color:yellow;
-  background: none; 
-  border: 01px solid yellow !important;;
-}
 /*textos*/
 .text-1{
   font-size: 60px;
@@ -141,37 +86,44 @@ nav a {
   padding: 20px;
 }
 
-/*logos*/
-.logo {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-.coca {
-  width: 40px;
-  height: auto;
-}
+
 /* Footer */
 footer {
   background: #000d1a;
   color: white;
   padding: 30px;
 }
-/*adorno*/
-.textoyflecha {
-  position: absolute;
-  left: 30vw; /* Se centra horizontalmente */
-  top: 68%;
-  transform: translateX(-50%) rotate(10deg); /* Lo centra y mantiene la inclinación */
-  width: 8vw; /* Tamaño relativo al ancho de la pantalla */
-  height: auto;
-  animation: flota-inclinado 2s infinite ease-in-out;
+
+/*despues del icons*/
+
+.communication,
+.video-chat,
+.orders {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 60px 10%;
 }
 
-.video {
-  position: absolute;
-  left: 10vw; /* Más adaptable */
-  top: 35%;
-  width: 5vw;
-  height: auto;
+.communication .image img,
+.video-chat .image img,
+.orders .image img {
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Fondo verde de la última sección */
+.orders {
+    background: #0D4937;
+    color: white;
+}
+
+.stats {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.stats span {
+    font-size: 18px;
 }

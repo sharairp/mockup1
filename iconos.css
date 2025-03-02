@@ -1,0 +1,51 @@
+/*logo de coca*/
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .coca {
+    width: 40px;
+    height: auto;
+  }
+  
+  /*iconos de marcas*/
+  
+  .icons {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr); /* 7 iconos en la primera fila */
+    gap: 50px;
+    justify-content: center;
+    max-width: 700px;
+    margin: auto;
+  }
+  
+  .icons img:nth-child(n+8) { /* A partir del octavo icono */
+    grid-column: span 1; /* Hacen que los 5 iconos se distribuyan mejor */
+  }
+  
+  .icons img {
+    width: 80px;
+    height: auto;
+  }
+  
+  
+  /*otros iconos*/
+  .textoyflecha {
+    position: absolute;
+    left: 30vw; /* Se centra horizontalmente */
+    top: 68%;
+    transform: translateX(-50%) rotate(10deg); /* Lo centra y mantiene la inclinación */
+    width: 8vw; /* Tamaño relativo al ancho de la pantalla */
+    height: auto;
+    animation: flota-inclinado 2s infinite ease-in-out;
+  }
+  
+  .video {
+    position: absolute;
+    left: 10vw; /* Más adaptable */
+    top: 35%;
+    width: 5vw;
+    height: auto;
+  }
+  
