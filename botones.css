@@ -9,6 +9,12 @@
     border:none;
     border-radius: 20px 20px 20px 20px;
   }
+
+  .nav-btn {
+    display: flex; 
+    align-items: center; 
+    gap: 10px; 
+  }
   .register-btn{
     background-color: #73E5FF;
     padding: 15px 15px; 
@@ -54,4 +60,17 @@
     color:yellow;
     background: none; 
     border: 01px solid yellow !important;;
+  }
+
+  .mas_info{
+    background-color: #003f2f;
+    color: white;
+    padding: 10px 20px;
+    margin: auto;
+    border: none; 
+    width: 180px; 
+    height: 50px;
+    border-radius: 50px 50px 50px 50px;
+    cursor: pointer;
+   
   }

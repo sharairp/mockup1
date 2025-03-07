@@ -1,6 +1,10 @@
 @import url("animacion.css");
 @import url("iconos.css");
 @import url("botones.css");
+@import url("soporte.css");
+@import url("comunicacion.css");
+@import url("video_chat.css");
+@import url("orders.css");
 /* Estilos Generales */
 
 
@@ -20,11 +24,7 @@ header {
   align-items: center;
   color: white;
 }
-.nav-btn {
-  display: flex; 
-  align-items: center; 
-  gap: 10px; 
-}
+
 .nav-container {
   display: flex;
   width: 100%;
