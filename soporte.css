@@ -1,0 +1,36 @@
+.soporte {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px; /* Espacio entre imagen y texto */
+    padding: 50px;
+}
+
+.imagen_soporte {
+    flex: 4; /* 40% del espacio */
+}
+
+.imagen_soporte img {
+    width: 100%;
+    max-width: 500px; /* Ajusta el tamaño máximo */
+}
+
+.info_soporte {
+    flex: 6; /* 60% del espacio */
+    text-align: left;
+}
+
+.info_soporte h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.info_soporte p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+.mas_info:hover {
+    background-color: #0056b3;
+}
