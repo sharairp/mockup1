@@ -6,7 +6,7 @@
     padding: 50px;
 }
 
-.text-content {
+.text-contenido {
     flex: 1; /* Ocupa el 50% */
     max-width: 50%;
     text-align: left; /* Alinea todo el texto a la izquierda */
@@ -15,21 +15,24 @@
 .text-content h2 {
     font-size: 24px;
     margin-bottom: 15px;
+    padding-bottom: 15px;
 }
 
-.text-content p {
+.text-contenido p {
+    white-space: normal;
     font-size: 16px;
-    color: #555;
-    line-height: 1.6;
     margin-bottom: 15px;
+    color: #555;
+    padding-bottom: 25px;
 }
 
-.text-content ul {
+.text-contenido ul {
     list-style: none;
     padding: 0;
+    list-style: none;
 }
 
-.text-content li {
+.text-contenido li {
     font-size: 16px;
     color: #333;
     margin-bottom: 10px;
@@ -37,9 +40,7 @@
     align-items: center;
 }
 
-.text-content li::before {
-    content: "✔"; /* Icono de check */
-    color: #007bff;
+.text-contenido li::before {
     font-weight: bold;
     margin-right: 10px;
 }
@@ -55,3 +56,8 @@
     width: 100%;
     max-width: 500px; /* Ajusta el tamaño máximo */
 }
+.communication ul {
+    list-style: none !important;
+    padding: 0;
+}
+

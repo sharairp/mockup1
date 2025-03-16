@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #fff;
+    text-align: center;
+}
+
+.testimonials {
+    max-width: 1000px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+h2 {
+    font-size: 39px;
+    font-weight: bold;
+    color: #0a0a23;
+}
+
+.testimonials p {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 40px;
+}
+
+.testimonials-container {
+    display: flex;
+    overflow: hidden; /* Oculta las tarjetas que no caben */
+    scroll-behavior: smooth;
+    width: 100%;
+    justify-content: space-between; /* Distribuye las tarjetas equitativamente */
+    flex-wrap: wrap; /* Permite que se ajusten en caso de pantallas pequeñas */
+    gap: 20px; /* Espacio entre las tarjetas */
+    padding: 20px;
+}
+
+.testimonials-slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.testimonial-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: calc(33.33% - 20px); 
+    min-width: 250px; 
+    flex: 0 0 calc(100% / 3 - 20px);
+    max-width: calc(100% / 3 - 20px);
+}
+
+.testimonial-card img {
+   
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+
+h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+}
+
+.role {
+    font-size: 14px;
+    color: gray;
+}
+
+.review {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.stars {
+    color: #ffcc00;
+    font-size: 16px;
+}
+
+.controls {
+    margin-top: 20px;
+}
+
+.controls button {
+    background: #003f2f;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 18px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.controls button:hover {
+    background: #ffffff;
+    color:#003f2f;
+}

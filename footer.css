@@ -1,0 +1,89 @@
+.footer {
+    background-color: #0b1230; /* Color de fondo azul oscuro */
+    color: white;
+    padding: 4rem 2rem;
+    position: relative;
+}
+
+.footer-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between; /* Texto a la izquierda, botón a la derecha */
+    align-items: center; /* Alinea verticalmente el contenido */
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    text-align: left;
+}
+
+.footer h2 {
+    font-size: 50px;
+    max-width: 60%;
+    color: white;
+}
+
+/* Contactos en una fila */
+.contact-info {
+    display: flex;
+    gap: 2rem; /* Espacio entre ubicación y correo */
+    padding-bottom: 80px;
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.info-item i {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 50%;
+}
+
+/* Botón alineado a la derecha */
+.cta-button {
+    background: #FFD700;
+    color: #0b1230;
+    padding: 1rem 3.4rem;
+    font-size: 1rem;
+    width: auto;
+    white-space: nowrap;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    margin-top: -200px;
+}
+
+.cta-button:hover {
+    background: #ffffff;
+}
+
+/* Sección inferior del footer */
+.footer-bottom {
+    margin-top: 3rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: 2rem auto 0;
+    font-size: 0.9rem;
+}
+
+.footer-links a {
+    color: white;
+    margin-left: 1rem;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}

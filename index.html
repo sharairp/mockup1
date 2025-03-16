@@ -5,7 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
 </head>
+<script src="script.js"></script>
+<script src="carrusel.js"></script>
+<script src="animaciones.js"></script>
 <body>
     <header>
       <div class="nav-container">
@@ -30,6 +35,8 @@
   <section class="hero">
     <button class="chat-soft-btn">Chat software</button>
       <img src="./imagen/iconos/video.svg" alt="video" class="video">
+      <img src="./imagen/iconos/phone-solid.svg" alt="phone" class="phone">
+      <img src="./imagen/iconos/mensaje.svg" alt="mensaje" class="mensaje">
       <h1 class="text-1">Proporciona soporte en  <br> tiempo real a través del chat <br>para tus clientes</h1>
       <p class="text-2">Excelente software que te permite chatear desde cualquier <br> lugar y en cualquier momento sin interrupciones.</p>
       <div class="cta-buttons">
@@ -63,13 +70,13 @@
   </section>
 
   <section class="communication">
-    <div class="text-content">
+    <div class="text-contenido">
         <h2>Acceda a una solución de mensajería multicanal unificada en un solo lugar</h2>
-        <p>Permita que sus clientes se comuniquen sin esfuerzo a tráves del chat en vivo, facebook, Telegram y muchas otras herramientas, con respuestas rápidas de Coca</p>
+        <p>Permita que sus clientes se comuniquen sin esfuerzo a tráves del chat en vivo, facebook, Telegram y muchas otras herramientas, con <br>respuestas rápidas de Coca</p>
         <ul>
-            <li>Participe en chats en tiempo real con visitantes y clientes potenciales. </li>
-            <li>Escale fácilmente conversaciones personalizadas sin limitaciones.</li>
-            <li> Participe en conversaciones de chat contextuales mientras viaja.</li>
+            <li><i class="fas fa-check-circle"></i>Participe en chats en tiempo real con visitantes y clientes potenciales. </li>
+            <li><i class="fas fa-check-circle"></i>Escale fácilmente conversaciones personalizadas sin limitaciones.</li>
+            <li><i class="fas fa-check-circle"></i>Participe en conversaciones de chat contextuales mientras viaja.</li>
         </ul>
     </div>
     <div class="image">
@@ -89,14 +96,14 @@
 
 <section class="orders">
     <div class="text-content">
-        <h2>Recibe pedidos directos de tus clientes</h2>
-        <p>Crea páginas de destino personalizadas con Rare blocks que convierten a más visitantes que cualquier sitio web.</p>
+        <h2>Recibe pedidos directos <br> de tus clientes</h2>
+        <p>Crea páginas de destino personalizadas con Rare blocks que <br> convierten a más visitantes que cualquier sitio web.</p>
         <div class="stats">
             <span><strong>9.3K+</strong> Website’s Powering</span>
             <span><strong>8M+</strong> Chats in Last 2022</span>
         </div>
     </div>
-    <div class="image">
+    <div class="imagen_notificacion">
         <img src="./imagen/notifications.png" alt="Notifications">
     </div>
 
@@ -105,12 +112,12 @@
 
     <section class="soporte">
         <div class="imagen_soporte">
-            <img src="imagen/chat_interface.png" alt="Chat de soporte">
+            <img src="imagen/soporte_interface.png" alt="Chat de soporte">
         </div>
         <div class="info_soporte">
             <h2>Una interfaz ideal para un soporte <br> rápido y sin código</h2>
             <p>Visual Builder te permite crear sin esfuerzo un chatbot de IA de primer nivel sin necesidad de codificación. Arrastra y suelta elementos conversacionales y pruébalos al instante para crear interacciones atractivas con los clientes.</p>
-            <p>Experimente una plataforma de mensajería moderna que integra a la perfección todo lo esencial para un soporte, ventas y participación efectivos, todo dentro de una interfaz fácil de usar.</p>
+            <p>Experimente una plataforma de mensajería moderna que integra a la perfección todo lo esencial <br> para un soporte, ventas y participación efectivos, todo dentro de una interfaz fácil de usar.</p>
             <button class="mas_info">Más información</button>
         </div>
     </section>
@@ -119,44 +126,167 @@
   </section>
 
   <section class="testimonials">
-      <h2>Give our users a great experience</h2>
-      <div class="testimonial-cards">
-          <div class="card">Testimonio 1</div>
-          <div class="card">Testimonio 2</div>
-          <div class="card">Testimonio 3</div>
-      </div>
-  </section>
+    <h2>Brindar a nuestros usuarios una gran experiencia.</h2>
+    <p>La construcción de comunidades es un campo de prácticas dirigidas a la <br>
+        creación o mejora de comunidades entre individuos.</p>
+    
+    <div class="testimonials-container">
+      <div class="testimonials-slider">
+        <div class="testimonial-card">
+            <img src="./imagen/avatar1.png" alt="User 1">
+            <h3>Jhonatan Albert</h3>
+            <p class="role">CEO, GoTick</p>
+            <p class="review">"They are able to help a startup like mine scale and are very responsive to all our unique needs."</p>
+            <div class="stars">⭐ ⭐ ⭐ ⭐ ⭐ 5.0</div>
+        </div>
 
-  <section class="pricing">
-      <h2>Pricing Plans</h2>
-      <div class="plans">
-          <div class="plan">
-              <h3>$50/month</h3>
-              <ul>
-                  <li>Feature 1</li>
-                  <li>Feature 2</li>
-              </ul>
-          </div>
-          <div class="plan featured">
-              <h3>$100/month</h3>
-              <ul>
-                  <li>Feature 1</li>
-                  <li>Feature 2</li>
-              </ul>
-          </div>
-          <div class="plan">
-              <h3>$150/month</h3>
-              <ul>
-                  <li>Feature 1</li>
-                  <li>Feature 2</li>
-              </ul>
-          </div>
-      </div>
-  </section>
+        <div class="testimonial-card">
+            <img src="./imagen/avatar1.png" alt="User 2">
+            <h3>Jhonatan Albert</h3>
+            <p class="role">Owner, Code Dev</p>
+            <p class="review">"Division of Labor’s creative ideas were great, and working with their team was truly easy."</p>
+            <div class="stars">⭐ ⭐ ⭐ ⭐ ⭐ 5.0</div>
+        </div>
 
-  <footer>
-      <h2>Are you prepared to collaborate with us?</h2>
-      <button class="yellow-btn">Get in Touch</button>
-  </footer>
+        <div class="testimonial-card">
+            <img src="./imagen/avatar1.png" alt="User 3">
+            <h3>Jhonatan Albert</h3>
+            <p class="role">Marketing & Office Coordinator</p>
+            <p class="review">"We were blown away when we saw Mixland. The combination of social, email, knowledge base, mobile, etc."</p>
+            <div class="stars">⭐ ⭐ ⭐ ⭐ ⭐ 5.0</div>
+        </div>
+
+        
+        <div class="testimonial-card">
+            <img src="./imagen/avatar1.png" alt="User 4">
+            <h3>Jhonatan Albert</h3>
+            <p class="role">Marketing & Office Coordinator</p>
+            <p class="review">"We were blown away when we saw Mixland. The combination of social, email, knowledge base, mobile, etc."</p>
+            <div class="stars">⭐ ⭐ ⭐ ⭐ ⭐ 5.0</div>
+        </div>
+      </div> 
+    </div>
+
+    <div class="controls">
+        <button class="prev">←</button>
+        <button class="next">→</button>
+    </div>
+</section>
+
+<section class="pricing">
+    <h2>Planes de precios</h2>
+    <p class="subtext">Kit de interfaz de usuario de la página de destino de Coca, no se requiere tarjeta de crédito. Todos los planes <br>vienen con nuestras funciones Premium.</p>
+  
+    <!-- Botones de alternancia -->
+    <div class="toggle-buttons">
+      <button class="active">Monthly</button>
+      <button>Yearly</button>
+    </div>
+  
+    <!-- Contenedor de los planes -->
+    <div class="plans">
+      <div class="plan" data-plan="silver">
+        <h3>PLATA</h3>
+        <p class="price">$50 <span>/month</span></p>
+        <ul>
+            <li><i class="fas fa-check-circle"></i> Sin descuento</li>
+            <li><i class="fas fa-check-circle"></i> Soporte básico</li>
+            <li><i class="fas fa-check-circle"></i> Sin anuncios publicitarios</li>
+            <li><i class="fas fa-check-circle"></i> Estilo de diseño</li>
+            <li><i class="fas fa-check-circle"></i> Biblioteca de componentes</li>
+            <li><i class="fas fa-check-circle"></i> Todos los enlaces limitados</li>
+            <li><i class="fas fa-check-circle"></i> Plataforma de análisis propia</li>
+            <li><i class="fas fa-check-circle"></i> Soporte por chat</li>
+            <li><i class="fas fa-check-circle"></i> Optimización de hashtags</li>
+            <li><i class="fas fa-check-circle"></i> Usuarios ilimitados</li>
+            
+        </ul>
+        <button class="choose-btn">Choose plan</button>
+      </div>
+  
+      <div class="plan selected" data-plan="gold">
+        <div class="most-popular">Most Popular</div>
+        <h3>ORO</h3>
+        <p class="price">$100 <span>/month</span></p>
+        <ul>
+            <li><i class="fas fa-check-circle"></i> Sin descuento</li>
+            <li><i class="fas fa-check-circle"></i> Soporte básico</li>
+            <li><i class="fas fa-check-circle"></i> Sin anuncios publicitarios</li>
+            <li><i class="fas fa-check-circle"></i> Estilo de diseño</li>
+            <li><i class="fas fa-check-circle"></i> Biblioteca de componentes</li>
+            <li><i class="fas fa-check-circle"></i> Todos los enlaces limitados</li>
+            <li><i class="fas fa-check-circle"></i> Plataforma de análisis propia</li>
+            <li><i class="fas fa-check-circle"></i> Soporte por chat</li>
+            <li><i class="fas fa-check-circle"></i> Optimización de hashtags</li>
+            <li><i class="fas fa-check-circle"></i> Usuarios ilimitados</li>
+            
+        </ul>
+        <button class="choose-btn">Choose plan</button>
+      </div>
+  
+      <div class="plan" data-plan="premium">
+        <h3>PREMIUM</h3>
+        <p class="price">$150 <span>/month</span></p>
+        <ul>
+            <li><i class="fas fa-check-circle"></i> Sin descuento</li>
+            <li><i class="fas fa-check-circle"></i> Soporte básico</li>
+            <li><i class="fas fa-check-circle"></i> Sin anuncios publicitarios</li>
+            <li><i class="fas fa-check-circle"></i> Estilo de diseño</li>
+            <li><i class="fas fa-check-circle"></i> Biblioteca de componentes</li>
+            <li><i class="fas fa-check-circle"></i> Todos los enlaces limitados</li>
+            <li><i class="fas fa-check-circle"></i> Plataforma de análisis propia</li>
+            <li><i class="fas fa-check-circle"></i> Soporte por chat</li>
+            <li><i class="fas fa-check-circle"></i> Optimización de hashtags</li>
+            <li><i class="fas fa-check-circle"></i> Usuarios ilimitados</li>
+            
+        </ul>
+        <button class="choose-btn">Choose plan</button>
+      </div>
+    </div>
+    <div class="footer_pricing">
+        <h2>Regístrese hoy para su prueba gratuita e <br>
+        incorpore el chat en vivo en sus sitio web.</h2>
+        <p>Descubra el poder de la interacción con el cliente en tiempo real ¡Comience su <br>
+        prueba gratuita eintegre el chat en vivo en su sitio web hoy mismo!</p>
+        <div class="iconos_store">
+            <img src="./imagen/appstore.png" alt="appstore">
+        </div>
+
+    </div>
+  </section>
+  
+  <footer class="footer">
+    <div class="footer-container">
+        <!-- Sección de texto y contacto -->
+        <div class="footer-content">
+            <h2>¿Estas preparado para colaborar con nosotros?</h2>
+            <div class="contact-info">
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>1929, Bancangan, Sambit, <br>
+                         Suroboyo, Wakanda</span>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>hello@cocapay.co</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Botón alineado a la derecha -->
+        <button class="cta-button">Get Start a Project →</button>
+    </div>
+
+    <div class="footer-bottom">
+        <p>© Coca Pay by Sans Brothers</p>
+        <div class="footer-links">
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Privacy Policy</a>
+        </div>
+    </div>
+</footer>
+
+
+
 </body>
 </html>

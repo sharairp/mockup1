@@ -8,11 +8,13 @@
 
 .imagen_soporte {
     flex: 4; /* 40% del espacio */
+    border-radius: 20px 20px 20px 20px;
 }
 
 .imagen_soporte img {
     width: 100%;
     max-width: 500px; /* Ajusta el tamaño máximo */
+    
 }
 
 .info_soporte {
@@ -21,8 +23,10 @@
 }
 
 .info_soporte h2 {
-    font-size: 24px;
+    font-size: 40px;
     margin-bottom: 15px;
+    padding-bottom: 20px;
+    padding-top: -50px;
 }
 
 .info_soporte p {
@@ -30,7 +34,9 @@
     color: #555;
     line-height: 1.6;
     margin-bottom: 20px;
+    padding-bottom: 20px;
 }
 .mas_info:hover {
-    background-color: #0056b3;
+    background-color: #3bbb9b;
+    color:#003f2f ;
 }

@@ -1,4 +1,58 @@
+.imagen_notificacion {
+    border-radius: 20px; /* Bordes redondeados en el contenedor */
+    overflow: hidden; /* Evita que la imagen sobresalga */
+    display: flex; /* Asegura alineación correcta */
+    justify-content: center; /* Centra la imagen */
+    align-items: center;
+}
+
+.imagen_notificacion img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+
 .text-content p{
     color: white !important;
+    
+}
+.orders h2{
+    color:white;
+    font-size: 40px;
+}
+
+.orders {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 60px 10%;
+}
+
+.orders .text-content{
+    text-align: left;
+    padding-right:  100px;;
+}
+
+.stats {
+    display: flex; /* Mantiene todo en una sola fila */
+    justify-content: center; /* Centra horizontalmente */
+    gap: 40px; /* Espaciado entre cada estadística */
+}
+
+.stats span {
+    display: flex;
+    align-items: center; /* Alinea número y texto en la misma línea */
+    gap: 10px; /* Espacio entre número y texto */
+}
+
+.stats strong {
+    font-size: 3rem; /* Tamaño grande para los números */
+    font-weight: bold;
+    
+}
+
+.stats span {
+    font-size: 1rem; 
     
 }

@@ -1,10 +1,13 @@
-@import url("animacion.css");
+@import url("animaciones.css");
 @import url("iconos.css");
 @import url("botones.css");
 @import url("soporte.css");
 @import url("comunicacion.css");
 @import url("video_chat.css");
 @import url("orders.css");
+@import url("testimonios.css");
+@import url("pricing.css");
+@import url("footer.css");
 /* Estilos Generales */
 
 
@@ -84,14 +87,6 @@ nav a {
 .plan {
   border: 1px solid #ccc;
   padding: 20px;
-}
-
-
-/* Footer */
-footer {
-  background: #000d1a;
-  color: white;
-  padding: 30px;
 }
 
 /*despues del icons*/

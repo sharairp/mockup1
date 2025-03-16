@@ -38,7 +38,6 @@
     transform: translateX(-50%) rotate(10deg); /* Lo centra y mantiene la inclinación */
     width: 8vw; /* Tamaño relativo al ancho de la pantalla */
     height: auto;
-    animation: flota-inclinado 2s infinite ease-in-out;
   }
   
   .video {
@@ -48,4 +47,17 @@
     width: 5vw;
     height: auto;
   }
-  
+  .mensaje{
+    position: absolute;
+    right: 10vw; /* Más adaptable */
+    top: 21%;
+    width: 5vw;
+    height: auto;
+  }
+  .phone{
+    position: absolute;
+    right: 18vw; /* Más adaptable */
+    bottom: 25%;
+    width: 5vw;
+    height: auto;
+  }
